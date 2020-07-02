@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css"  href="css/style3.css">
+    </head>
+    <body>
+        <div class="tab bg1" id="tab1">
+            <div class="btn po1" style="font-size: 20px;" onclick="opentab('Q1')">START</div>
+        </div>
+       
+        <div class="tab bg2" id="Q1">
+            <div class="po2 btn2" style="font-size: 20px;"  onclick="opentab('answer1')">
+                冒險之路即將開始<br>
+            你會選擇怎樣開始旅程呢？
+                <div class="trn"></div>
+            </div>
+        </div>
+
+        <div class="tab bg2" id="answer1">
+            <div class="check">
+                <div class="btn1" onclick="opentab('answer2')">走路</div><br>
+                <div class="btn1" onclick="opentab('answer3')">騎腳踏車</div><br>
+                <div class="btn1" onclick="opentab('answer4')">搭上便車</div><br>
+                <div class="btn1" onclick="opentab('answer5')">開車</div><br>
+               <div class="btn1" onclick="opentab('answer6')">先研究地圖</div>
+            </div>
+            <div class="po2 btn2" style="display: inline-block;font-size: 20px;">
+                冒險之路即將開始<br>
+            你會選擇怎樣開始旅程呢？</div>
+        </div>
+
+         <div class="tab bg2" id="answer2">
+            <div class="btn2 po2" onclick="opentab('Q2')" style="font-size: 20px;">
+                <div style="color: #f8f399;">一步一腳印</div>
+                <div>出發前往探險啦</div>
+                <div class="trn"></div>
+                <div class="act">行動力</div>
+            </div>
+        </div>
+
+        <div class="tab bg2" id="answer3">
+                <div class="btn2 po2" onclick="opentab('Q2')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">有一定的方向</div>
+                    <div>出發前往探險啦</div>
+                    <div class="trn"></div>
+                    <div class="act">行動力</div>
+                </div>
+        </div>
+
+        <div class="tab bg2" id="answer4">
+                <div class="btn2 po2" onclick="opentab('Q2')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">走前人的路</div>
+                    <div>出發前往探險啦</div>
+                    <div class="trn"></div>
+                    <div class="act">行動力</div>
+                </div>
+        </div>
+
+        <div class="tab bg2" id="answer5">
+                <div class="btn2 po2" onclick="opentab('Q2')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">有目標性的</div>
+                    <div>出發前往探險啦</div>
+                    <div class="trn"></div>
+                    <div class="act">行動力</div>
+                </div>
+        </div>
+
+        <div class="tab bg2" id="answer6">
+                <div class="btn2 po2" onclick="opentab('Q2')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">先準備好再行動</div>
+                    <div>出發前往探險啦</div>
+                    <div class="trn"></div>
+                    <div class="act">行動力</div>
+                </div>
+        </div>
+
+        <div class="tab bg3" id="Q2">
+                <div class="po2 btn2"  style="font-size: 20px;" onclick="opentab('tab2')">
+                        <div  style="font-size: 14px;">前往冒險的路上<br>總不可能兩手空空只拿顆種子吧?!</div>
+                        <div style="font-weight: 100; font-size: 8px;">(這大概會GAME OVER吧~)</div>
+                        <div  style="font-size: 14px;">所以這時候的你會怎麼拿到裝備呢？</div>
+                    <div class="trn" style="top: 3.5em;"></div>
+                </div>
+            </div>
+
+        <div class="tab bg3" id="tab2">
+            <div class="check">
+                <div class="btn1" onclick="opentab('answer7')">找熟識的裝備行老闆，尋求建議聊八卦~</div>
+                <div class="btn1" onclick="opentab('answer8')">在好友圈裡問裝備，揪團購!!</div>
+                <div class="btn1" onclick="opentab('answer9')">店員不理我，只好默默待著等</div>
+                <div class="btn1" onclick="opentab('answer10')">自己動手做裝備，我只相信我自己做的品質!!</div>
+            </div>
+                <div class="po2 btn2" style="display: inline-block">
+                        <div  style="font-size: 14px;">前往冒險的路上<br>總不可能兩手空空只拿顆種子吧?!</div>
+                        <div style="font-weight: 100; font-size: 8px;">(這大概會GAME OVER吧~)</div>
+                        <div  style="font-size: 14px;">所以這時候的你會怎麼拿到裝備呢？</div>
+                    </div>
+        </div>
+
+        <div class="tab bg3" id="answer7">
+                <div class="btn2 po2" onclick="opentab('Q3')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">交到幾個知心朋友</div>
+                    <div>治裝完成!!上路去</div>
+                    <div class="trn"></div>
+                    <div class="act">社交狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg3" id="answer8">
+                <div class="btn2 po2" onclick="opentab('Q3')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">擁有一群朋友</div>
+                    <div>治裝完成!!上路去</div>
+                    <div class="trn"></div>
+                    <div class="act">社交狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg3" id="answer9">
+                <div class="btn2 po2" onclick="opentab('Q3')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">邊緣人....</div>
+                    <div>治裝完成!!上路去</div>
+                    <div class="trn"></div>
+                    <div class="act">社交狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg3" id="answer10">
+                <div class="btn2 po2" onclick="opentab('Q3')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">我是孤傲的一匹狼！</div>
+                    <div>治裝完成!!上路去</div>
+                    <div class="trn"></div>
+                    <div class="act">社交狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg4" id="Q3">
+                <div class="po2 btn2"  style="font-size: 20px;" onclick="opentab('tab3')">
+                        經過長途跋涉<br>
+                        你會選擇在哪渡過一晚呢？
+                    <div class="trn"></div>
+                </div>
+        </div>
+
+        <div class="tab bg4" id="tab3">
+            <div class="check">
+                <div class="btn1" onclick="opentab('answer11')">露天草地，享受一個人的寧靜</div>
+                <div class="btn1" onclick="opentab('answer12')">民宅，給予滿滿的愛與關懷</div><br>
+                <div class="btn1" onclick="opentab('answer13')">酒店，一起玩一起high</div><br>
+                <div class="btn1" onclick="opentab('answer14')">青年旅館，聚在一起，各做各的</div>
+            </div>
+            <div class="po2 btn2" style="display: inline-block;font-size: 20px;">
+                經過長途跋涉，<br>你會選擇在哪渡過一晚呢？</div>
+            </div>
+        </div>
+        
+        <div class="tab bg4" id="answer11">
+                <div class="btn2 po2" onclick="opentab('Q4')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">獨處一夜後，</div>
+                    <div>背起行囊繼續趕路囉~</div>
+                    <div class="trn"></div>
+                    <div class="act1">最「自我」的狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg4" id="answer12">
+                <div class="btn2 po2" onclick="opentab('Q4')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">跟家人共度一夜後，</div>
+                    <div>背起行囊繼續趕路囉~</div>
+                    <div class="trn"></div>
+                    <div class="act1">最「自我」的狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg4" id="answer13">
+                <div class="btn2 po2" onclick="opentab('Q4')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">跟朋友一塊玩耍一夜後，</div>
+                    <div>背起行囊繼續趕路囉~</div>
+                    <div class="trn"></div>
+                    <div class="act1">最「自我」的狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg4" id="answer14">
+                <div class="btn2 po2" onclick="opentab('Q4')" style="font-size: 20px;">
+                    <div style="color: #f8f399;">有人相伴一夜後，</div>
+                    <div>背起行囊繼續趕路囉~</div>
+                    <div class="trn"></div>
+                    <div class="act1">最「自我」的狀態</div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="Q4">
+            <div style="font-size: 36px;font-weight: bolder;color: rgb(204, 12, 12);position: absolute;margin-top: 105%;left:8px;">突發事件！！！</div>
+                <div class="po2 btn2"  style="font-size: 15px;" onclick="opentab('tab4')">
+                    這時候你遇到一頭名叫「教授」的龍<br>
+                    開口向你討名為「報告」的食物<br>
+                    你會選擇...？
+                    <div class="trn" style="top: 4em;"></div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="tab4">
+                <div class="check">
+                    <div class="btn1" onclick="opentab('answer15')">絕不向惡勢力低頭!<br>嗯...我還是做吧..</div>
+                    <div class="btn1" onclick="opentab('answer16')">要死一起死，拖著朋友下水!</div>
+                    <div class="btn1" onclick="opentab('answer17')">我選擇SKIP跳過這一切</div>
+                    <div class="btn1" onclick="opentab('answer18')">這鍋我不背<br>路上抓個人甩鍋給他~</div>
+                    <div class="btn1" onclick="opentab('answer19')">阿...我什麼都沒看到</div>
+                </div>
+                <div class="po2 btn2" style="display: inline-block; font-size: 15px;">
+                    這時候你遇到一頭名叫「教授」的龍<br>
+                    開口向你討名為「報告」的食物<br>
+                    你會選擇...？
+                </div>
+        </div>
+
+        <div class="tab bg5" id="answer15">
+                <div class="btn2 po2" onclick="opentab('Q5')" style="font-size: 17px;">
+                    <div style="color: #f8f399;">自己處理</div>
+                    <div>機智如我~順利地繼續前往未知的旅程~</div>
+                    <div class="trn"  style="top: 4em;"></div>
+                    <div class="act1">處理事件的方法</div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="answer16">
+                <div class="btn2 po2" onclick="opentab('Q5')" style="font-size: 17px;">
+                    <div style="color: #f8f399;">尋求朋友幫助</div>
+                    <div>機智如我~順利地繼續前往未知的旅程~</div>
+                    <div class="trn"  style="top: 4em;"></div>
+                    <div class="act1">處理事件的方法</div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="answer17">
+                <div class="btn2 po2" onclick="opentab('Q5')" style="font-size: 17px;">
+                    <div style="color: #f8f399;">另謀出路</div>
+                    <div>機智如我~順利地繼續前往未知的旅程~</div>
+                    <div class="trn" style="top: 4em;"></div>
+                    <div class="act1">處理事件的方法</div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="answer18">
+                <div class="btn2 po2" onclick="opentab('Q5')" style="font-size: 17px;">
+                    <div style="color: #f8f399;">丟給別人做，瀟灑又自在</div>
+                    <div>機智如我~順利地繼續前往未知的旅程~</div>
+                    <div class="trn" style="top: 4em;"></div>
+                    <div class="act1">處理事件的方法</div>
+                </div>
+        </div>
+
+        <div class="tab bg5" id="answer19">
+                <div class="btn2 po2" onclick="opentab('Q5')" style="font-size: 17px;">
+                    <div style="color: #f8f399;">能拖多久就拖多久，不想面對</div>
+                    <div>機智如我~順利地繼續前往未知的旅程~</div>
+                    <div class="trn" style="top: 4em;"></div>
+                    <div class="act1">處理事件的方法</div>
+                </div>
+        </div>
+
+        <div class="tab bg6" id="Q5">
+                <div class="po2 btn2"  style="font-size: 18px;" onclick="opentab('tab5')">
+                        旅程已經走了滿長一段路啦~<br>
+                        現在停下看看你手中的種子長怎樣吧！
+                        <div class="trn" style="top: 4em;"></div>
+                    </div>
+            </div>
+
+        <div class="tab bg6" id="tab5">
+            <div class="check">
+                <div class="btn1" onclick="opentab('answer20')">還是顆種子，不慌、不忙、不急<br>佛系恣意生長，我有自己的步調</div>
+                <div class="btn1" onclick="opentab('answer21')">有小嫩芽了!該朝哪邊長呢?!<br>向左長?向右長?向上長?</div>
+                <div class="btn1" onclick="opentab('answer22')">轉職成大樹啦!<br>整個天空都是我的伸展台~</div>
+                <div class="btn1" onclick="opentab('answer23')">已經結成果實了<br>成長就是神一樣的迅速!</div>
+            </div>
+                <div class="po2 btn2" style="display: inline-block;font-size: 18px;">
+                    旅程已經走了滿長一段路啦~<br>
+                    現在停下看看你手中的種子長怎樣吧！
+                </div>
+        </div>
+
+        <div class="tab bg6" id="answer20">
+                <div class="btn2 po2" onclick="opentab('Q6')" style="font-size: 14px;">
+                    <div style="color: #f8f399;">我還在各方探索，努力找尋方向前進</div>
+                    <div>如果沒有沒關係繼續努力~<BR>
+                        冒險還未結束，請繼續踏上你的旅程....</div>
+                    <div class="trn" style="top: 5em;"></div>
+                    <div class="act1">現在所處的人生階段</div>
+                </div>
+        </div>
+
+        <div class="tab bg6" id="answer21">
+                <div class="btn2 po2" onclick="opentab('Q6')" style="font-size: 14px;">
+                    <div style="color: #f8f399;"> 我有一點方向性，正在持續探索<br>但不確定對不對~</div>
+                    <div>如果沒有沒關係繼續努力~<BR>
+                        冒險還未結束，請繼續踏上你的旅程....</div>
+                    <div class="trn" style="top: 5em;"></div>
+                    <div class="act1">現在所處的人生階段</div>
+                </div>
+        </div>
+
+        <div class="tab bg6" id="answer22">
+                <div class="btn2 po2" onclick="opentab('Q6')" style="font-size: 14px;">
+                    <div style="color: #f8f399;">
+                            我已經有確切方向<br>正朝著這道路精進自我~~</div>
+                    <div>如果沒有沒關係繼續努力~<BR>
+                        冒險還未結束，請繼續踏上你的旅程....</div>
+                    <div class="trn"  style="top:5em;"></div>
+                    <div class="act1">現在所處的人生階段</div>
+                </div>
+        </div>
+
+        <div class="tab bg6" id="answer23">
+                <div class="btn2 po2" onclick="opentab('Q6')" style="font-size: 14px;">
+                    <div style="color: #f8f399;">
+                            我朝著喜歡的方向走了很長一段路了! <br>自我成就GET!</div>
+                    <div>如果沒有沒關係繼續努力~<BR>
+                        冒險還未結束，請繼續踏上你的旅程....</div>
+                    <div class="trn" style="top: 5em;"></div>
+                    <div class="act1">現在所處的人生階段</div>
+                </div>
+        </div>
+
+        <div class="tab bg8" id="Q6">
+            <div class="btn" style="font-size: 20px;margin-top: 50%;" onclick="opentab('tab6')">NEXT STORY</div>
+ 
+        </div>
+
+        <div class="tab bg7" id="tab6">
+                <div style="text-align:left; width:70%;margin: auto;"><br><br><br>
+                    感謝探險者耐心的玩到了最後~<br>
+                    這次的小遊戲期盼能讓你從選擇中<br>
+                    了解自己最輕鬆舒適的狀態<br>
+                    找到真實的自我，<br>
+                    無論你現在處於什麼樣的狀態<br>
+                    請用自己的步調去闖闖吧~<br>
+                    若是你正在迷茫，那正好！<br>
+                    強烈推薦Doit當你最佳的小夥伴！
+                </div>
+                <div>
+                <a class="btn" style="font-size: 16px;margin-top:20px;padding:8px 20px;" href="https://www.facebook.com/Do-it-106190097393531/">Doit FB粉絲專頁</a><br>
+                <a class="btn" style="font-size: 16px; padding:8px 20px;" href="https://blink.com.tw/account/blink_profile/2787686963c/posts/">Doit Blink</a>
+                </div>
+            </div>
+
+        <script src="myscript.js"></script>
+		<script>
+            document.getElementById("tab1").style.display="block";
+            
+			
+		</script>
+    </body> 
+          
+</html>
